@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    // Replace this comment with your code
+	    // Version 1
             String name = args[0];
             int times = Integer.parseInt(args[1]);
             String checkletters = "AaEeFfHhIiLlMmNnOoRrSsXx";
@@ -15,7 +15,7 @@ public class Cheers {
                 if (checkoutput) {
                         System.out.println("Give me an " + name.charAt(i)+"!");
                    } else {
-                        System.out.println("Give me a " + name.charAt(i) + "!"); 
+                        System.out.println("Give me a  " + name.charAt(i) + "!"); 
                    } 
                    checkoutput=false;
             }

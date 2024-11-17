@@ -1,7 +1,7 @@
 // Computes an approximation of PI.
 public class CalcPi {
 	public static void main(String [] args) { 
-	    // Replace this comment with your code
+	    // Version 1
 		int nchecks = Integer.parseInt(args[0]);
 		double res = 1;
 		int denominator = 3;

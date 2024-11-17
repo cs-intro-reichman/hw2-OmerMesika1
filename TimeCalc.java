@@ -1,6 +1,6 @@
 public class TimeCalc {
     public static void main(String[] args) {
-        // Replace this comment with your code
+	    // Version 1
         String hinput = args[0];
         int addition = Integer.parseInt(args[1]);
         int sumin = Integer.parseInt(hinput.substring(0, 2))* 60 + Integer.parseInt(hinput.substring(3, 5)) + addition;
