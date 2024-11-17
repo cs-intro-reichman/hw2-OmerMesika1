@@ -13,10 +13,10 @@ public class Cheers {
                    }    
                 }
                 if (checkoutput) {
-                        System.out.println("Give me an " + name.charAt(i)+"!");
+                        System.out.println("Give me an " + name.charAt(i)+": "+name.charAt(i) + "!");
                    } else {
-                        System.out.println("Give me a  " + name.charAt(i) + "!"); 
-                   } 
+                    System.out.println("Give me a  " + name.charAt(i)+": "+name.charAt(i) + "!");
+               } 
                    checkoutput=false;
             }
             System.out.println("What does that spell?");
