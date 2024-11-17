@@ -2,7 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
 	    // Version 1
-            String name = args[0];
+            String name = args[0].toUpperCase();
             int times = Integer.parseInt(args[1]);
             String checkletters = "AaEeFfHhIiLlMmNnOoRrSsXx";
             boolean checkoutput=false;
